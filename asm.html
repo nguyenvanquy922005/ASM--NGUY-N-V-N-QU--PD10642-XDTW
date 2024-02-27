@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trường Trung Học Phổ Thông Nguyễn Công Trứ</title>
+    <style>
+        *{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    margin: 0;
+}
+header img{
+    width: 100%;
+    height: 100%;
+    background: red;
+    margin-bottom: -5px;
+}
+nav{
+    line-height: 25px;
+    background: blue;
+    height: 30px;
+}
+article{
+    margin-top: 25px;
+    float: left;
+    min-width: 60%;
+    width: 58%;
+}
+article img{
+    width: 100%;
+}
+
+
+nav{
+    margin: 0;
+    background-color: yellow;
+    height: 100%;
+}
+nav ul{
+    margin: 0;
+    text-align: center;
+    list-style: none;
+}
+nav ul li{ 
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color:black;
+    display:inline-block;
+    padding-top: 7px;
+    padding-right: 20px;
+    padding-bottom: 7px;
+}
+nav ul li a:hover{
+    color: white;
+
+}
+.menu ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+
+.menu a{
+    display: block;
+}
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+
+}
+.menu ul ul{
+    clear: both;
+    position: absolute;
+    display: none;
+    width: 250PX;
+}
+.menu ul ul li{
+    clear: both;
+}
+.menu li:hover>ul{
+    display: block;
+    background: white;
+}
+.menu li>ul a:hover{
+    color: rgb(238, 3, 3);
+}
+
+
+footer{
+    clear: both;
+    background-color: yellow;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    padding-block: 5px;
+    height: 150px;
+}
+.footerh3{
+    padding-bottom: 15px;
+}
+footer p{
+    padding-bottom: 5px;
+}
+
+aside{
+    margin-left: 5%;
+    margin-top: 25px;
+    float: right;
+    min-height: 1000px;
+    width: 35%;
+}
+.panel-titel{
+    height: 100%;
+    background: yellow;
+    text-align: center;
+    padding-top: 10px;
+}
+.column-item .panel-body-one{
+    height: 100%;
+    border: 2px solid black;
+    margin-top: 10px;
+    box-shadow: 3px 4px 5px yellow;
+}
+
+.panel-default{
+    margin-top: 35px ;
+}
+.panel-default .panel-heading{
+    border:  solid yellow;
+    background: yellow;
+}
+.panel-default .panel-body{
+    width: 100%;
+    border: 1px solid yellow;
+}
+.panel-default .panel-body div{
+    display: flex;
+}
+.panel-default div img{
+    width: 40%;
+    height: 30%;
+    float: left;
+    margin-top: 10px;
+    margin-right:auto;
+}
+.panel-default div div p{
+    width: 60%;
+    font-size: 15px;
+}
+.panel-default .panel-body p{
+    padding: 5px;
+    margin: 0;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <img src="http://c3nguyencongtru.quangngai.edu.vn/wp-content/uploads/2023/04/Untitled-1.png" alt="">
+    </header>
+    
+    <nav>
+        <div class="menu">
+            <ul>   
+                <li><a href="#">GIỚI THIỆU</a>
+                <ul class="sub-menu">
+                    <li><a href="trangchu.html">GIỚI THIỆU CHUNG</a></li>
+                    <li><a href="#">SƠ ĐỒ TỔ CHỨC</a></li>
+                </ul>
+                </li>
+                <li><a href="#">THÔNG BÁO</a>
+                <ul>
+                    <li><a href="#">THÔNG BÁO TỪ SỞ</a></li>
+                    <li><a href="#">THÔNG BÁO TỪ TRƯỜNG</a></li>
+                </ul>
+                </li>
+                <li><a href="#">KẾ HOẠCH CÔNG TÁC</a>
+                    <ul>
+                        <li><a href="#">LỊCH CÔNG TÁO TUẦN</a></li>
+                        <li><a href="#">LỊCH CÔNG TÁC THÁNG</a></li>
+                        <li><a href="#">THỜI KHÓA BIỂU</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">TIN TỨC</a></li>
+                <li class="fix"><a href="#">LIÊN HỆ</a></li>
+                <li><div class="topnav">
+                    <div class="search-container">
+                      <form action="/action_page.php">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"> TÌM KIẾM</button>
+                      </form>
+                    </div>
+                  </div>
+                </li>
+            </ul>
+            
+        </div>
+    </nav>
+    <article>    
+            <p><h2><mark> GIỚI THIỆU VỀ TRƯỜNG THPT NGUYỄN CÔNG TRỨ </mark></p></h2>
+               <p><h3> <mark>Giới thiệu chi tiết</mark></h3></p>
+               <p><h4>
+                Trường THPT Nguyễn Công Trứ là một trong những Trường THPT tại Quảng Ngãi, có địa chỉ chính xác tại Đức Thạnh, Mộ Đức, Quảng Ngãi. <br>
+                
+                Thông tin doanh nghiệp <br>
+                Dưới đây là các thông tin liên quan đến nhà trường như mã số thuế, giấy phép kinh doanh, đại diện pháp luật,...</p></h4>
+
+                <img src="https://yersinnhatrang.edu.vn/wp-content/uploads/2023/07/Danh-gia-chat-luong-Truong-Trung-hoc-pho-thong-Nguyen.jpg" alt="" width="1px">
+
+          <p><h2> <mark> HƯỚNG DẪN ĐI ĐẾN ĐỊA ĐIỂM TRƯỜNG THPT NGUYỄN CÔNG TRỨ </mark> </p></h2>
+            <p><h4>Để đi đến được <b>Trường THPT Nguyễn Công Trứ </b>các bạn cần phải tâm đến giờ làm việc hay giờ mở cửa của địa chỉ này, và khoảng cách. Dưới đây là các thông tin quan trọng mà các bạn cần quan tâm đến. <br>
+            
+           <b><h2> <mark>Thời gian làm việc </mark></h2></b>
+            Dưới đây là thời gian làm việc của <b>Trường THPT Nguyễn Công Trứ</b>. Lưu ý thời gian này có thể sẽ thay đổi vào dịp lễ tết <br>
+            <br>
+            <b>Thứ Hai, Thứ Ba, Thứ Tư, Thứ Năm, Thứ Sáu, Thứ Bảy: 08:00 đến 17:00 </b><br>
+            <br>
+            <b> Chủ Nhật: Đóng cửa </b><br>
+            <br>
+            Khoảng cách đi trong Quảng Ngãi
+            Huyện Mộ Đức, Huyện Tư Nghĩa và Huyện Nghĩa Hành là 3 quận huyện gần nhất đến với Trường THPT Nguyễn Công Trứ. Ngoài ra các bạn có thể tham khảo khoảng cách khác của quận huyện thuộc Quảng Ngãi. Lưu ý thời gian đi dự kiến có thể sẽ thay đổi tuỳ vào tình hình giao thông.</h4></p>
+    </article>
+    <aside>
+        <div class="column-item">
+            <div>
+            <div class="panel-titel">TIN TỨC TỪ SỞ GD&DT</div>
+            </div>
+
+            
+        <div class="box">
+            <div class="box1"> <img src="https://th.bing.com/th/id/R.5146b3cb027b78252bd011ff76c15581?rik=d5x3uwbuDVIUkA&riu=http%3a%2f%2fi.imgur.com%2f7Vpsxlh.jpg&ehk=gVg7NlQindHItCBX0GRsFm8sSNJSN2G0Hmh5Urs1RbM%3d&risl=&pid=ImgRaw&r=0" alt="" width="580px" height="250px"></div>
+
+        </div>
+
+
+            <div class="panel-default">
+                <div class="panel-heading">TIN TỨC-SỰ KIỆN</div>
+                <div class="panel-body">
+                    <p><b>KẾ HOẠCH</b></p>
+                    <div><img src="https://scontent.fdad1-1.fna.fbcdn.net/v/t39.30808-6/299975810_499293198864320_5600821250399789903_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=eeR6LAp3zGcAX8bWsvP&_nc_ht=scontent.fdad1-1.fna&oh=00_AfDaiGJ_JOQDueuDPiHOOSX7DaZNkLzaXc3hya2qmdJGLg&oe=65B0C7CB" alt=""><p>(13/12/2023) - Kế hoạch Triển khai chương trình bồi dưỡng về kỹ năng số ngành giáo dục trên nền tảng trực tuyến tại Chuyên trang Chuyển đổi số tỉnh Quảng Ngãi <br>(03/11/2023) - Số 196a/KH-NCT - KH BỒI DƯỠNG THƯỜNG XUYÊN NH 2023-2024 <br>(31/10/2023) - Số 191a/KH-NCT KẾ HOẠCH TỐ CHỨC CUỘC THI VỚI Ý TƯỞNG KHỞI NGHIỆP</p>
+                        
+                </div>        
+                </div>
+                </div>
+            </div>
+
+            <div class="panel-default">
+                <div class="panel-heading">HOẠT ĐỘNG ĐẢNG – ĐOÀN THỂ</div>
+                <div class="panel-body">
+                    
+                    <div><img src="http://c3nguyencongtru.quangngai.edu.vn/wp-content/uploads/Thumbcache/ao-xanh-dong-hanh-cung-sinh-vien-thu-do-tro-lai-giang-duong-1266-olzh03syonbkbvviqyxn675ymouhbb806zs1dc0vam.jpg" alt=""><p>Web.ĐTN: Đồng hành cùng sinh viên quay trở lại trường học, Đoàn Thanh niên – Hội Sinh viên Việt Nam TP Hà Nội đã chỉ đạo Đoàn Thanh niên – Hội Sinh viên các trường đại học, học viện, cao đẳng trên địa bàn Thành phố tích cực triển khai các đội hình thanh niên tình nguyện, xung kích, hỗ trợ, cùng nhà trường sẵn sàng đón sinh... ...</p>
+    </aside>
+    <footer>
+        <p>
+            LIÊN HỆ <br>
+            TRƯỜNG THPT NGUYỄN CÔNG TRỨ <br>
+             Điện thoại: 02553857700 <br>
+             Email: c3nguyencongtru@quangngai.edu.vn <br>
+             Địa chỉ: Xã Đức Thạnh - Huyện Mộ Đức - Tỉnh Quảng Ngãi <br>
+    </p>
+    </footer>
+</div>
+</body>
+</html>

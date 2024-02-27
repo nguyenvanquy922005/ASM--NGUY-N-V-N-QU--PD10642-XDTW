@@ -1,0 +1,172 @@
+.container{
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 250px;
+}
+
+nav{
+    background-color:#ffbd00;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+nav ul li a{
+    color:black; 
+    padding-right: 20px;
+}
+
+article{
+    width: 70%;
+    float: left;
+    min-height: auto;
+}
+
+aside{
+    width: 30%;
+    height: 500px;
+    float: left;
+    min-height: auto;
+    margin-top: 30px;
+}
+
+footer{
+    background-color: #ffbd00;
+    width: 100%;
+    height: 145px;
+    clear: both;
+    text-align: center;
+    color: black;
+    float: left;
+}
+footer ul li a{
+    color: black;
+    padding-right: 10px;
+}
+
+.menu>ul>li{
+    line-height:55px ;
+    display:inline-block;
+}
+
+.menu>ul>li>a{
+  color: black;
+  text-decoration: none;
+}
+
+.menu>ul>li>a:hover{
+    color: red;
+}
+
+.menu1>ul>li{
+  display: inline-block;
+}
+
+.menu1>ul>li>a{
+    color: black;
+    text-decoration: none;
+}
+
+.menu1>ul>li>a:hover{
+    color: red;
+}
+
+
+.box{
+    background-color: #ff9800;
+    width: 100%;
+    box-shadow: 5px 5px 5px #ff0000;
+    border-radius: 8px;
+}
+
+.panel{
+    border: 1px solid black;
+    width: 450px;
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.panel1{
+    border-bottom: 1px solid ;
+    background-color: #ff9800; 
+    height: 30px;
+    line-height: 35px;
+}
+.anh>img{
+    margin:5px 5px;
+    width: 200px;
+    height: 150px;
+}   
+
+.menu a{
+    display: block;
+    text-decoration: none;
+}
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+    
+}
+.menu ul ul{
+    clear: both;
+    position: absolute;
+    display: none;
+    width: 200px;
+    list-style: none;
+    text-align: left;
+}
+.menu ul ul li{
+    clear: both;
+}
+.menu li:hover>ul{
+    display: block;
+    background: rgba(255, 255, 255, 0.848);
+}
+.menu li>ul a:hover{
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+}
+
+
+.chay{
+    color:red;
+    text-transform: uppercase;
+    background-color:rgb(206, 202, 198);
+    display: flex; 
+    align-items: center; 
+    height: 40px;
+    
+}
+
+.video{
+    border: 1px solid black;
+    width: 480px;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.video1{
+    border-bottom: 1px solid ;
+    background-color: #ff9800; 
+    height: 30px;
+    line-height: 35px;
+}
+
+.fb{
+    border: 1px solid black;
+    width: 480px;
+    height: 333px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.fb1{
+    border-bottom: 1px solid ;
+    background-color: #ff9800; 
+    height: 30px;
+    line-height: 35px;
+}
